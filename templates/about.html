@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <title>My Website - About</title>
+    <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/app.css') }}"/>
 </head>
 <body>
+    <img src="{{ url_for('static', filename='dog.jpg') }}" alt="dog">
     <h1>Mia Hill</h1>
-    <p>I am a third year computer science major with a minor in economics. I was born late November in Kingston, Jamaica. I have one sibling and a puppy. My hobbies include watching dramas and gaming.I am interested in web development because I am interested in becoming a web developer in the future and this course will serve as a good foundation to help achieving that goal.</p>
+    <hr>
+    <p>I am a final year computer science major with a minor in economics. I was born late November in Kingston, Jamaica. I have one sibling and a puppy. My hobbies include watching dramas and gaming.I am interested in web development because I am aspiring to be a web developer in the future and this course will serve as a good foundation to help achieving that goal.</p>
 </body>
 </html>
